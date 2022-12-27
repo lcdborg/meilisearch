@@ -1,0 +1,7 @@
+version: "3"
+services:
+  meilisearch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
